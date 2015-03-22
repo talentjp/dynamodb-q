@@ -1,6 +1,6 @@
 {
   "name": "dynamodb-q",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight Q/Promise-based adapter of the cumbersome node.js dynamodb API",
   "main": "index.js",
   "scripts": {
