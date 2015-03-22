@@ -1,0 +1,32 @@
+{
+  "name": "dynamodb-q",
+  "version": "0.1.0",
+  "description": "A lightweight Q/Promise-based adapter of the cumbersome node.js dynamodb API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talentjp/dynamodb-q.git"
+  },
+  "keywords": [
+    "AWS",
+    "node",
+    "dynamo",
+    "db",
+    "q",
+    "promise"
+  ],
+  "author": "Roger Cheng <talentjp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talentjp/dynamodb-q/issues"
+  },
+  "homepage": "https://github.com/talentjp/dynamodb-q",
+  "dependencies": {
+    "aws-sdk": "^2.1.17",
+    "dynamodb-data-types": "^2.0.1",
+    "q": "^1.2.0"
+  }
+}
