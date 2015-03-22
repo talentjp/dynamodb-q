@@ -17,6 +17,11 @@ A lightweight Q/Promise-based adapter of the cumbersome node.js dynamodb API
     //{ department: 'IT', title: 'Engineer', salary: 120000 }
     //Otherwise it will look like this:
     //[Error: Empty data]
+## Region
+Default region is set to us-west-2 but you can change this by calling:
+
+    dq.SetRegion('your-dynamodb-region');
+
 ## Table Builder
 This constructs a table object to be converted into dynamodb params. <br>
 From above example:
